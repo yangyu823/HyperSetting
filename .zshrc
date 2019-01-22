@@ -12,8 +12,6 @@ export ZSH="/Users/yu/.oh-my-zsh"
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE='nerdfont-complete'
-
-
 #------------------------------------------------------------------------#
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
@@ -34,6 +32,8 @@ POWERLEVEL9K_BACKGROUND_JOBS_FOREGROUND='black'
 POWERLEVEL9K_BACKGROUND_JOBS_BACKGROUND='178'
 POWERLEVEL9K_TIME_BACKGROUND="white"
 POWERLEVEL9K_TIME_FORMAT="%D{\uf017 %H:%M \uf073 %d/%m/%y}"
+POWERLEVEL9K_CONTEXT_TEMPLATE="%n$"
+# POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=('os_icon' 'virtualenv' 'dir' 'vcs')
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=('os_icon' 'virtualenv' 'context' 'dir' 'vcs')
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('node_version' 'status' 'background_jobs' 'history' 'time')
 POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR=$'\uE0B0'
