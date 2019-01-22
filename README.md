@@ -4,7 +4,7 @@
 
 :octocat: https://github.com/ryanoasis/nerd-fonts
 
-#####Option 4: Homebrew Fonts
+##### Option 4: Homebrew Fonts
 >Best option if on macOS and want to use Homebrew.
 
 All fonts are available via Homebrew Fonts on macOS (OS X)
