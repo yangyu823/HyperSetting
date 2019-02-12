@@ -14,7 +14,43 @@ brew tap caskroom/fonts
 brew cask install font-hack-nerd-font
 ````
 
-#### 2. [.zshrc] file
+#### 2. Install ZSH
+
+```brew install zsh zsh-completions```
+
+######Set as default shell
+
+```chsh -s /bin/zsh```
+
+
+#### 3. Install Oh_My_ZSH
+
+via curl
+
+```sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"```
+
+via wget
+
+```sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"```
+ 
+#### 4. Install PowerLevel9K
+ 
+ First get the homebrew tap
+
+```brew tap sambadevi/powerlevel9k```
+
+Then install powerlevel9k via brew
+
+```brew install powerlevel9k```
+
+
+Additional Install for Oh_My_ZSH
+```git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k```
+
+
+
+ 
+ [.zshrc] file
 
 ````
 
