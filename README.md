@@ -84,7 +84,7 @@ POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR=$'\uE0B2'
 #------------------------------------------------------------------------#
 ````
 
-#### 3. [.hyper.js] file
+#### 6. ````.hyper.js file
 
 ````
     fontFamily: '"Hack Nerd Font","Roboto Mono for Powerline", "Meslo LG L DZ for Powerline", "Source Code Pro for Powerline", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
