@@ -44,7 +44,8 @@ Then install powerlevel9k via brew
 ```brew install powerlevel9k```
 
 
-Additional Install for Oh_My_ZSH
+Themes Install for Oh_My_ZSH
+
 ```git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k```
 
 
