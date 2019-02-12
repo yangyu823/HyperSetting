@@ -51,7 +51,7 @@ Themes Install for Oh_My_ZSH
 
 
  
- [.zshrc] file
+#### 5. ```.zshrc``` file
 
 ````
 
