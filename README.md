@@ -18,7 +18,7 @@ brew cask install font-hack-nerd-font
 
 ```brew install zsh zsh-completions```
 
-######Set as default shell
+###### Set as default shell
 
 ```chsh -s /bin/zsh```
 
