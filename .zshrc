@@ -33,9 +33,10 @@ POWERLEVEL9K_BACKGROUND_JOBS_BACKGROUND='178'
 POWERLEVEL9K_TIME_BACKGROUND="white"
 POWERLEVEL9K_TIME_FORMAT="%D{\uf017 %H:%M \uf073 %d/%m/%y}"
 POWERLEVEL9K_CONTEXT_TEMPLATE="%n$"
-# POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=('os_icon' 'virtualenv' 'dir' 'vcs')
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=('os_icon' 'virtualenv' 'context' 'dir' 'vcs')
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('node_version' 'status' 'background_jobs' 'history' 'time')
+# POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=('os_icon' 'virtualenv' 'context' 'dir' 'vcs')
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=( 'dir_writable' 'dir' 'vcs')
+# POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('node_version' 'status' 'background_jobs' 'history' 'time')
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('command_execution_time' 'status' 'background_jobs' 'context')
 POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR=$'\uE0B0'
 POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR=$'\uE0B2'
 #------------------------------------------------------------------------#
