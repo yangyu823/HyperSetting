@@ -39,7 +39,7 @@ via wget
 
 ```brew tap sambadevi/powerlevel9k```
 
-Then install powerlevel9k via brew
+Then install powerlevel9k via brew(10k)
 
 ```brew install powerlevel9k```
 
@@ -77,8 +77,11 @@ POWERLEVEL9K_BACKGROUND_JOBS_FOREGROUND='black'
 POWERLEVEL9K_BACKGROUND_JOBS_BACKGROUND='178'
 POWERLEVEL9K_TIME_BACKGROUND="white"
 POWERLEVEL9K_TIME_FORMAT="%D{\uf017 %H:%M \uf073 %d/%m/%y}"
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=('os_icon' 'virtualenv' 'context' 'dir' 'vcs')
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('node_version' 'status' 'background_jobs' 'history' 'time')
+POWERLEVEL9K_CONTEXT_TEMPLATE="%n$"
+# POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=('os_icon' 'virtualenv' 'context' 'dir' 'vcs')
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=( 'dir_writable' 'dir' 'vcs')
+# POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('node_version' 'status' 'background_jobs' 'history' 'time')
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=('command_execution_time' 'status' 'background_jobs' 'context')
 POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR=$'\uE0B0'
 POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR=$'\uE0B2'
 #------------------------------------------------------------------------#
@@ -89,3 +92,29 @@ POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR=$'\uE0B2'
 ````
     fontFamily: '"Hack Nerd Font","Roboto Mono for Powerline", "Meslo LG L DZ for Powerline", "Source Code Pro for Powerline", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 ````
+
+#### 7. iTerm2
+```https://www.iterm2.com/downloads.html```
+
+#### 8. AutoSuggestions(ZSH)
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+```
+
+Add the plugin to the list of plugins in ~/.zshrc:
+```
+plugins=(
+    zsh-autosuggestions
+)
+```
+#### 9. Syntax highlighting
+```
+$ brew install zsh-syntax-highlighting
+```
+After installation through homebrew, add the next line to the end of your ~/.zshrc file :
+
+```
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
+
+
